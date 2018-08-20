@@ -24,6 +24,7 @@ class App extends Component {
       message: '',
     });
   }
+  
   handleSubmit(e) {
     e.preventDefault();
     const isOnTheList = this.state.buyItems.includes(this.state.input)
